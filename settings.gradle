@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My-Notes-App"
+rootProject.name = "Notes.HUB"
 include ':app'
