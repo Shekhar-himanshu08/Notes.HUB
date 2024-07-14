@@ -7,6 +7,8 @@ plugins {
 
     // but i use ksp
     id 'com.google.devtools.ksp'
+    id 'com.google.firebase.firebase-perf'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -51,6 +53,8 @@ dependencies {
 
     //Lottie
     implementation "com.airbnb.android:lottie:6.1.0"
+    implementation 'com.google.firebase:firebase-perf-ktx:20.0.6'
+    implementation 'com.google.firebase:firebase-analytics-ktx:20.1.2'
 
     // Room
     def room_version = "2.5.2"
